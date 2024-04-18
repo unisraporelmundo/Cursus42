@@ -6,9 +6,10 @@
 /*   By: iizquier <iizquier@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/12 17:36:28 by iizquier          #+#    #+#             */
-/*   Updated: 2024/04/12 17:41:56 by iizquier         ###   ########.fr       */
+/*   Updated: 2024/04/18 13:57:59 by iizquier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include "libft.h"
 
 int	ft_isprint(int c)
 {

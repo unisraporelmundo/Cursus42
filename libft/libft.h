@@ -6,7 +6,7 @@
 /*   By: iizquier <iizquier@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/15 13:21:22 by iizquier          #+#    #+#             */
-/*   Updated: 2024/04/18 12:53:17 by iizquier         ###   ########.fr       */
+/*   Updated: 2024/04/18 14:01:24 by iizquier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <stdio.h>
 # include <unistd.h>
 # include <stddef.h>
+# include <string.h>
 
 int			ft_isalpha(int c);
 int			ft_isdigit(int c);
