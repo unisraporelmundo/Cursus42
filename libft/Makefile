@@ -6,7 +6,7 @@
 #    By: iizquier <iizquier@student.42malaga.com>   +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/15 14:35:14 by iizquier          #+#    #+#              #
-#    Updated: 2024/04/15 15:58:34 by iizquier         ###   ########.fr        #
+#    Updated: 2024/04/16 11:25:53 by iizquier         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,6 +18,8 @@ FILES = \
 		ft_isprint.c\
 		ft_isascii.c\
 		ft_isalnum.c\
+		ft_tolower.c\
+		ft_toupper.c\
 
 OBJ = $(FILES:.c=.o)
 
