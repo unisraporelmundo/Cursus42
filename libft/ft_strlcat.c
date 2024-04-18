@@ -1,30 +1,37 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: iizquier <iizquier@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/04/15 13:21:22 by iizquier          #+#    #+#             */
-/*   Updated: 2024/04/18 12:53:17 by iizquier         ###   ########.fr       */
+/*   Created: 2024/04/18 11:55:25 by iizquier          #+#    #+#             */
+/*   Updated: 2024/04/18 12:58:43 by iizquier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include "libft.h"
 
-#ifndef LIBFT_H
-# define LIBFT_H
+size_t	ft_strlcat(char *dest, const char *src, size_t size)
+{
+	size_t	len_d;
+	size_t	len_s;
+	size_t	i;
 
-# include <stdio.h>
-# include <unistd.h>
-# include <stddef.h>
-
-int			ft_isalpha(int c);
-int			ft_isdigit(int c);
-int			ft_isprint(int c);
-int			ft_isascii(int c);
-int			ft_isalnum(int c);
-int			ft_tolower(int c);
-int			ft_toupper(int c);
-size_t		ft_strlen(const char *str);
-size_t		ft_strlcat(char	*dest, const char *src, size_t size);
-
-#endif
+	len_d = ft_strlen(dest);
+	len_s = ft_strlen(src);
+	if (len_d >= size)
+	{
+		return (len_s + size);
+	}
+	else if (len_d + 1 < size)
+	{
+		i = 0;
+		while (src[i] && (len_d + i + 1 < size))
+		{
+			dest [len_d + i] = src[i];
+			i++;
+		}
+		dest [len_d + i] = 0;
+	}
+	return (len_d + len_s);
+}
