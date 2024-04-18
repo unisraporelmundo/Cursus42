@@ -6,7 +6,7 @@
 #    By: iizquier <iizquier@student.42malaga.com>   +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/15 14:35:14 by iizquier          #+#    #+#              #
-#    Updated: 2024/04/16 11:25:53 by iizquier         ###   ########.fr        #
+#    Updated: 2024/04/18 11:31:14 by iizquier         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,6 +20,7 @@ FILES = \
 		ft_isalnum.c\
 		ft_tolower.c\
 		ft_toupper.c\
+		ft_strlen.c\
 
 OBJ = $(FILES:.c=.o)
 
