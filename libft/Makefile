@@ -6,7 +6,7 @@
 #    By: iizquier <iizquier@student.42malaga.com>   +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/15 14:35:14 by iizquier          #+#    #+#              #
-#    Updated: 2024/04/19 13:06:47 by iizquier         ###   ########.fr        #
+#    Updated: 2024/04/19 13:48:42 by iizquier         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,6 +23,7 @@ FILES = \
 		ft_strlen.c\
 		ft_strlcat.c\
 		ft_strlcpy.c\
+		ft_strchr.c\
 
 OBJ = $(FILES:.c=.o)
 
