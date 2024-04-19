@@ -6,7 +6,7 @@
 /*   By: iizquier <iizquier@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/15 13:21:22 by iizquier          #+#    #+#             */
-/*   Updated: 2024/04/18 14:01:24 by iizquier         ###   ########.fr       */
+/*   Updated: 2024/04/19 12:42:24 by iizquier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,5 +27,6 @@ int			ft_tolower(int c);
 int			ft_toupper(int c);
 size_t		ft_strlen(const char *str);
 size_t		ft_strlcat(char	*dest, const char *src, size_t size);
+size_t		ft_strlcpy(char *dest, const char *src, size_t size);
 
 #endif
