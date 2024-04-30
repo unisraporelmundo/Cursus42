@@ -29,6 +29,7 @@ FILES = \
 		ft_strncmp.c\
 		ft_strnstr.c\
 		ft_strrchr.c\
+		ft_memcpy.c\
 
 OBJ = $(FILES:.c=.o)
 
