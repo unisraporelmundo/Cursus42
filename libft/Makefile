@@ -26,6 +26,9 @@ FILES = \
 		ft_strchr.c\
 		ft_memset.c\
 		ft_bzero.c\
+		ft_strncmp.c\
+		ft_strnstr.c\
+		ft_strrchr.c\
 
 OBJ = $(FILES:.c=.o)
 
