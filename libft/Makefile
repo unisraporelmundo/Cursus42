@@ -6,7 +6,7 @@
 #    By: iizquier <iizquier@student.42malaga.com>   +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/15 14:35:14 by iizquier          #+#    #+#              #
-#    Updated: 2024/04/19 13:48:42 by iizquier         ###   ########.fr        #
+#    Updated: 2024/05/02 12:34:48 by iizquier         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -31,6 +31,8 @@ FILES = \
 		ft_strrchr.c\
 		ft_memcpy.c\
 		ft_memcmp.c\
+		ft_memchr.c\
+		ft_memmove.c\
 
 OBJ = $(FILES:.c=.o)
 
