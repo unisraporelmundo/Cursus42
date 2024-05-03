@@ -6,7 +6,7 @@
 /*   By: iizquier <iizquier@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/15 13:21:22 by iizquier          #+#    #+#             */
-/*   Updated: 2024/05/02 18:27:14 by iizquier         ###   ########.fr       */
+/*   Updated: 2024/05/03 21:04:29 by iizquier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 # include <unistd.h>
 # include <stddef.h>
 # include <string.h>
-# include <stdlib>
+# include <stdlib.h>
 
 int			ft_isalpha(int c);
 int			ft_isdigit(int c);
@@ -40,4 +40,5 @@ void		*ft_memcpy(void *dst, const void *src, size_t n);
 int			ft_memcmp(const void *s1, const void *s2, size_t n);
 void		*ft_memchr(const void *s, int c, size_t n);
 void		*ft_memmove(void *dst, const void *src, size_t len);
+int			ft_atoi(const char *str);
 #endif
