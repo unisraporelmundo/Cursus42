@@ -6,7 +6,7 @@
 /*   By: iizquier <iizquier@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/15 13:21:22 by iizquier          #+#    #+#             */
-/*   Updated: 2024/05/03 22:02:15 by iizquier         ###   ########.fr       */
+/*   Updated: 2024/05/03 22:18:19 by iizquier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,4 +42,5 @@ void		*ft_memchr(const void *s, int c, size_t n);
 void		*ft_memmove(void *dst, const void *src, size_t len);
 int			ft_atoi(const char *str);
 void		*ft_calloc(size_t count, size_t size);
+char		*ft_strdup(const char *s1);
 #endif
