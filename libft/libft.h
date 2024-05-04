@@ -6,7 +6,7 @@
 /*   By: iizquier <iizquier@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/15 13:21:22 by iizquier          #+#    #+#             */
-/*   Updated: 2024/05/04 17:22:00 by iizquier         ###   ########.fr       */
+/*   Updated: 2024/05/04 20:57:44 by iizquier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,4 +45,5 @@ void		*ft_calloc(size_t count, size_t size);
 char		*ft_strdup(const char *s1);
 void		ft_putchar_fd(char c, int fd);
 char		*ft_substr(char const *s, unsigned int start, size_t len);
-#endif
+char		*ft_strjoin(char const *s1, char const *s2);
+#endif 
