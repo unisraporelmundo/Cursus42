@@ -6,7 +6,7 @@
 #    By: iizquier <iizquier@student.42malaga.com>   +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/15 14:35:14 by iizquier          #+#    #+#              #
-#    Updated: 2024/05/03 22:17:38 by iizquier         ###   ########.fr        #
+#    Updated: 2024/05/04 16:30:51 by iizquier         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -36,6 +36,7 @@ FILES = \
 		ft_atoi.c\
 		ft_calloc.c\
 		ft_strdup.c\
+		ft_putchar_fd.c\
 
 OBJ = $(FILES:.c=.o)
 
