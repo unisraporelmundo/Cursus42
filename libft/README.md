@@ -23,6 +23,10 @@ Este proyecto consiste en codificar una biblioteca en C que incluirá un conjunt
 
 ## 🏗️ Parte Obligatoria
 
+### Funciones de libc
+
+Replicarás funciones estándar de la libc, como `strlen`, `memset`, y `memcpy`, pero con el prefijo `ft_` para denotar que son implementaciones propias.
+
 | Function                         | Description                                                                     | Prototype
 | -------------------------------- | ----------------------------------------------------------- |-------------------------------------------------------------|                                               
 | [ft_isalpha](./ft_isalpha.c) | Checks if character `c` is alphabetic.                                          | int ft_isalpha(int c);                                                           |
@@ -48,9 +52,7 @@ Este proyecto consiste en codificar una biblioteca en C que incluirá un conjunt
 | [ft_atoi](./ft_atoi.c)       | Converts a string to an integer.                                                | int ft_atoi(const char *str);                                                    |
 | [ft_calloc](./ft_calloc.c)   | Allocates memory and fills it with zeros.                                       | void *ft_calloc(size_t nmemb, size_t size);                                      |
 | [ft_strdup](./ft_strdup.c)   | Duplicates a dynamic string.
-### Funciones de libc
 
-Replicarás funciones estándar de la libc, como `strlen`, `memset`, y `memcpy`, pero con el prefijo `ft_` para denotar que son implementaciones propias.
 
 ### Funciones Adicionales
 
