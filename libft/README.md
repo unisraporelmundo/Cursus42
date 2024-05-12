@@ -1,4 +1,5 @@
 <a href="#" onclick="return false;"><img alt="42 Logo" src="https://github.com/unisraporelmundo/Cursus42/blob/main/assets/banner5.png"></a>
+
 El primer proyecto en 42, libft, consiste en aprender cómo funcionan las funciones estándar de la programación C escribiéndolas desde cero y creando una biblioteca personal. Este proyecto es vital ya que la biblioteca se utilizará en asignaciones futuras en 42.
 Tendrás que programar una [librería](./inc/libft.h) en C. Tu librería tendrá un montón de funciones de propósito general en las que se apoyarán tus programas.
 
