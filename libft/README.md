@@ -1,10 +1,20 @@
 
-### MY FIRST LIBRARY 
+# Libft - Tu Primera Biblioteca en C
 
-Deberás rehacer algunas funciones de la libc. Tus funciones tendrán los mismos prototipos e implementarán los mismos comportamientos que las funciones originales. Deberán ser tal y como las describe el man. La única diferencia será la nomenclatura. Empezarán con el prefijo `ft_`. Por ejemplo, `strlen` se convertirá en 
- `ft_strlen`.
+Libft es un proyecto que desafía a los estudiantes a crear su propia biblioteca de funciones en C, replicando y expandiendo las funcionalidades de la libc estándar. Este es uno de los primeros proyectos dentro del currículo de 42 y sirve como una base sólida para entender y aplicar conceptos fundamentales de programación en C.
 
+## 📘 Resumen del Proyecto
 
+Este proyecto consiste en codificar una biblioteca en C que incluirá un conjunto de funciones de propósito general. Estas funciones serán utilizadas en proyectos posteriores, facilitando el desarrollo de programas más complejos.
+
+## 📄 Instrucciones Generales
+
+- **Lenguaje:** Todo el proyecto debe estar escrito en C.
+- **Normativa:** Seguir la normativa de codificación de 42, que incluye la prohibición de variables globales y el uso de `static` para funciones internas.
+- **Compilación:** Debe incluirse un Makefile que compilará los archivos fuente con las flags `-Wall`, `-Werror` y `-Wextra`.
+- **Seguridad:** No deben producirse fallos abruptos (segfault, bus error, etc.) y toda la memoria asignada debe liberarse adecuadamente.
+
+## 🏗️ Parte Obligatoria
 
 | Function                         | Description                                                                     | Prototype
 | -------------------------------- | ----------------------------------------------------------- |-------------------------------------------------------------|                                               
@@ -31,3 +41,29 @@ Deberás rehacer algunas funciones de la libc. Tus funciones tendrán los mismos
 | [ft_atoi](./ft_atoi.c)       | Converts a string to an integer.                                                | int ft_atoi(const char *str);                                                    |
 | [ft_calloc](./ft_calloc.c)   | Allocates memory and fills it with zeros.                                       | void *ft_calloc(size_t nmemb, size_t size);                                      |
 | [ft_strdup](./ft_strdup.c)   | Duplicates a dynamic string.
+### Funciones de libc
+
+Replicarás funciones estándar de la libc, como `strlen`, `memset`, y `memcpy`, pero con el prefijo `ft_` para denotar que son implementaciones propias.
+
+### Funciones Adicionales
+
+Crearás funciones que no se encuentran en la libc o que ofrecen funcionalidades extendidas, tales como `ft_substr` y `ft_split`.
+
+## 🔨 Makefile
+
+El Makefile incluirá reglas como `all`, `clean`, `fclean`, y `re` para gestionar eficientemente la compilación de la biblioteca.
+
+## 🚀 Parte Bonus
+
+Si completas la parte obligatoria con éxito, puedes proceder a implementar funciones adicionales que manejen estructuras de datos como listas enlazadas.
+
+## 📚 Evaluación
+
+- **Deepthought:** Un sistema automatizado revisará parte del código.
+- **Peer-evaluations:** Tus compañeros evaluarán la funcionalidad y conformidad de tu proyecto.
+
+## 📝 Entrega
+
+Tu trabajo debe ser entregado a través de tu repositorio Git asignado. Asegúrate de que todos los archivos necesarios están presentes y que el nombre de los archivos es correcto.
+
+
