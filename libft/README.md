@@ -78,7 +78,45 @@ El Makefile incluirá reglas como `all`, `clean`, `fclean`, y `re` para gestiona
 ## 🚀 Parte Bonus
 
 Si completas la parte obligatoria con éxito, puedes proceder a implementar funciones adicionales que manejen estructuras de datos como listas enlazadas.
-
+</table>
+<br>
+<table>
+    <thead>
+        <tr>
+            <th colspan="4" id="bonus-functions"><h3>Bonus Functions</h3></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td width="10%"><a href="./bonus_functions/ft_lstnew_bonus.c"><code>ft_lstnew_bonus.c</code></a></td>
+            <td width="40%">Create a new list element.</td>
+            <td width="10%"><a href="./bonus_functions/ft_lstadd_front_bonus.c"><code>ft_lstadd_front_bonus.c</code></a></td>
+            <td width="40%">Add a new element to the beginning of a list.</td>
+        </tr>
+        <tr>
+            <td><a href="./bonus_functions/ft_lstsize_bonus.c"><code>ft_lstsize_bonus.c</code></a></td>
+            <td>Get the number of elements in a list.</td>
+            <td><a href="./bonus_functions/ft_lstlast_bonus.c"><code>ft_lstlast_bonus.c</code></a></td>
+            <td>Get the last element of a list.</td>
+        </tr>
+        <tr>
+            <td><a href="./bonus_functions/ft_lstadd_back_bonus.c"><code>ft_lstadd_back_bonus.c</code></a></td>
+            <td>Add a new element to the end of a list.</td>
+            <td><a href="./bonus_functions/ft_lstdelone_bonus.c"><code>ft_lstdelone_bonus.c</code></a></td>
+            <td>Delete a node from a list without deleting its content.</td>
+        </tr>
+        <tr>
+            <td><a href="./bonus_functions/ft_lstclear_bonus.c"><code>ft_lstclear_bonus.c</code></a></td>
+            <td>Delete and free the memory of a list node and its consecutives.</td>
+            <td><a href="./bonus_functions/ft_lstiter_bonus.c"><code>ft_lstiter_bonus.c</code></a></td>
+            <td>Apply a function to each element of a list.</td>
+        </tr>
+        <tr>
+            <td><a href="./bonus_functions/ft_lstmap_bonus.c"><code>ft_lstmap_bonus.c</code></a></td>
+            <td colspan="3">Creates a list by iterating and applying a function of a existing list.</td>
+        </tr>
+    </tbody>
+</table>
 ## 📚 Evaluación
 
 - **Deepthought:** Un sistema automatizado revisará parte del código.
