@@ -6,7 +6,7 @@
 #    By: iizquier <iizquier@student.42malaga.com>   +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/15 14:35:14 by iizquier          #+#    #+#              #
-#    Updated: 2024/05/05 00:41:36 by iizquier         ###   ########.fr        #
+#    Updated: 2024/05/13 11:37:38 by iizquier         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -43,6 +43,7 @@ FILES = \
 		ft_putendl_fd.c\
 		ft_putstr_fd.c\
 		ft_striteri.c\
+		ft_strtrim.c\
 
 OBJ = $(FILES:.c=.o)
 

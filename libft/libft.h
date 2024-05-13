@@ -6,7 +6,7 @@
 /*   By: iizquier <iizquier@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/15 13:21:22 by iizquier          #+#    #+#             */
-/*   Updated: 2024/05/05 00:41:10 by iizquier         ###   ########.fr       */
+/*   Updated: 2024/05/13 11:38:32 by iizquier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,4 +50,5 @@ char		*ft_strjoin(char const *s1, char const *s2);
 void		ft_putendl_fd(char *s, int fd);
 void		ft_putstr_fd(char *s, int fd);
 void		ft_striteri(char *s, void (*f)(unsigned int, char*));
+char		*ft_strtrim(const char *s1, const char *set);
 #endif 
