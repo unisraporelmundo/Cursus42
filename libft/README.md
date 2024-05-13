@@ -57,6 +57,19 @@ Replicarás funciones estándar de la libc, como `strlen`, `memset`, y `memcpy`,
 ### Funciones Adicionales
 
 Crearás funciones que no se encuentran en la libc o que ofrecen funcionalidades extendidas, tales como `ft_substr` y `ft_split`.
+| Function                         | Description                                                                     | Prototype                                                                        |
+| -------------------------------- | ------------------------------------------------------------------------------- |--------------------------------------------------------------------------------- |
+| [ft_substr](./ft_substr.c)   | Extracts a substring from a string.                                             | char *ft_substr(const char *s, unsigned int start, size_t len);                  |
+| [ft_strjoin](./ft_strjoin.c) | Concatenates two strings into a new one.                                        | char *ft_strjoin(const char *s1, const char *s2);                                |
+| [ft_strtrim](./ft_strtrim.c) | Removes specified characters from the beginning and end of a string.            | char *ft_strtrim(const char *s1, const char *set);                               |
+| [ft_split](./ft_split.c)     | Splits a string into words.                                                     | char **ft_split(const char *s, char c);                                          |
+| [ft_itoa](./ft_itoa.c)       | Converts an integer to a string.                                                | char *ft_itoa(int n);                                                            |
+| [ft_strmapi](./ft_strmapi.c) | Applies a function to each character of a string.                               | char *ft_strmapi(const char *s, char (*f)(unsigned int, char));                  |
+| [ft_striteri](./ft_striteri.c)| Applies a function to each character of a string, with its index.              | void ft_striteri(char *s, void (*f)(unsigned int, char*));                       |
+| [ft_putchar_fd](./ft_putchar_fd.c)| Writes a character to a file descriptor.                                   | void ft_putchar_fd(char c, int fd);                                              |
+| [ft_putstr_fd](./ft_putstr_fd.c) | Writes a string to a file descriptor.                                       | void ft_putstr_fd(char *s, int fd);                                              |
+| [ft_putendl_fd](./ft_putendl_fd.c)| Writes a string followed by a newline to a file descriptor.                | void ft_putendl_fd(char *s, int fd);                                             |
+| [ft_putnbr_fd](./ft_putnbr_fd.c)   | Writes an integer to a file descriptor.                                   | void ft_putnbr_fd(int n, int fd);                                                |
 
 ## 🔨 Makefile
 
