@@ -6,7 +6,7 @@
 #    By: iizquier <iizquier@student.42malaga.com>   +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/15 14:35:14 by iizquier          #+#    #+#              #
-#    Updated: 2024/05/17 15:06:43 by iizquier         ###   ########.fr        #
+#    Updated: 2024/05/17 15:29:45 by iizquier         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -48,7 +48,11 @@ FILES = \
 		ft_itoa.c\
 		ft_split.c\
 
+BONUS_FILE = \
+
 OBJ = $(FILES:.c=.o)
+
+BONUS_OBJ = $(BONUS_FILE:.c=.o)
 
 FLAGS = -Wall -Werror -Wextra
 
@@ -58,12 +62,21 @@ $(NAME): $(FILES) $(OBJ)
 
 all: $(NAME)
 
+bonus: $(BONUS_OBJ)
+	@gcc -c $(FLAGS) $(BONUS_FILE)
+	@ar rcs $(NAME) $(BONUS_OBJ)
+	@echo "Bonus library $(NAME) created!"
+
 clean:
 	@rm -f $(OBJ)
 
 fclean: clean
 	@rm -f $(NAME) $(OBJ)
+	@rm -f $(NAME) $(BONUS_OBJ)
 
 re: fclean all
+
+$(OBJ): %.o: %.c
+	@$(CC) -c $(FLAGS) $< -o $@
 
 .PHONY: all clean fclean re bonus
