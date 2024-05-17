@@ -6,7 +6,7 @@
 /*   By: iizquier <iizquier@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/16 13:12:39 by iizquier          #+#    #+#             */
-/*   Updated: 2024/05/17 13:41:41 by iizquier         ###   ########.fr       */
+/*   Updated: 2024/05/17 15:20:29 by iizquier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
@@ -14,6 +14,7 @@
 
 static	int	ft_countwords(const char *str, char c);
 static	char	**ft_free(char **str, int i);
+static	int	ft_wordlen(const char *str, char c);
 
 static	char	**ft_free(char **str, int i)
 {
@@ -26,7 +27,7 @@ static	char	**ft_free(char **str, int i)
 static	int	ft_countwords(const char *str, char c)
 {
 	int	i;
-	int words;
+	int	words;
 
 	i = 0;
 	words = 0;
@@ -39,22 +40,41 @@ static	int	ft_countwords(const char *str, char c)
 	return (words);
 }
 
+static	int	ft_wordlen(const char *str, char c)
+{
+	int	len;
+
+	len = 0;
+	while (str[len] && str[len] != c)
+		len++;
+	return (len);
+}
+
 char	**ft_split(const char *str, char c)
 {
 	char	**array;
-	int	i;
-	int	start;
-	int	end;
+	int		i;
+	int		start;
+	int		words;
 
+	if (!str)
+		return (NULL);
+	words = ft_countwords(str, c);
+	array = (char **)malloc(sizeof(char *) * (words + 1));
+	if (!array)
+		return (NULL);
 	i = 0;
 	start = 0;
-	array = (char **)malloc(sizeof(char *) * ft_countwords(str, c) + 1);
-	if (array == '\0')
-		return (NULL);
-	end = ft_strchr(str + start, c) - str;
-	array = ft_substr(str, start, 
-
-int	main()
-{
-	printf("%d",ft_countwords("hola que",' '));
+	while (i < words)
+	{
+		while (str[start] == c)
+			start++;
+		array[i] = ft_substr(str, start, ft_wordlen(str + start, c));
+		if (!array[i])
+			return (ft_free(array, i));
+		start += ft_wordlen(str + start, c);
+		i++;
+	}
+	array[i] = NULL;
+	return (array);
 }

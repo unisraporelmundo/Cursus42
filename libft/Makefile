@@ -6,7 +6,7 @@
 #    By: iizquier <iizquier@student.42malaga.com>   +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/15 14:35:14 by iizquier          #+#    #+#              #
-#    Updated: 2024/05/14 15:10:40 by iizquier         ###   ########.fr        #
+#    Updated: 2024/05/17 15:06:43 by iizquier         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -46,6 +46,7 @@ FILES = \
 		ft_strtrim.c\
 		ft_strmapi.c\
 		ft_itoa.c\
+		ft_split.c\
 
 OBJ = $(FILES:.c=.o)
 
