@@ -10,6 +10,8 @@
 42 Telefónica es parte de la red global de campus de programación 42, que revoluciona la educación tecnológica con un enfoque pedagógico único y una sólida red de colaboradores empresariales.
 
 ---
+<a href="#" onclick="return false;"><img alt="42 Logo" src="https://github.com/unisraporelmundo/Cursus42/blob/main/assets/banner%20%20staff.png"></a>
+
 
 ## 🌟 Valores
 
