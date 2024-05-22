@@ -1,33 +1,28 @@
-<a href="#" onclick="return false;"><img alt="42 Logo" src="https://github.com/unisraporelmundo/Cursus42/blob/main/assets/banner6.png"></a>
+<h1 align="center">
+    <img src="https://github.com/unisraporelmundo/unisraporelmundo/blob/main/unisraporelmundo/banner42.gif" alt="Banner de perfil"/>
+</h1>
 
-42 Telefónica es un campus innovador de formación en programación, el cual es parte de la red global de escuelas 42. Este proyecto educativo, lanzado inicialmente por Xavier Niel en Francia, se ha expandido a varios países, incluyendo España bajo el patrocinio de Telefónica. Esta iniciativa se caracteriza por un modelo pedagógico revolucionario que elimina clases tradicionales, horarios fijos y profesores, ofreciendo un aprendizaje completamente basado en proyectos y trabajo en equipo.
+**42 Network: Innovating Tech Education**
 
+42 Network is a groundbreaking group of coding schools initiated by Xavier Niel, revolutionizing tech education across the globe, including notable campuses in Paris, Madrid, and Málaga. Each campus is dedicated to democratizing tech education, featuring tuition-free training and no prior diploma requirements.
 
-# 42 Telefónica
+**42 Paris** and **42 Madrid** offer a 24/7 learning environment with extensive resources. Paris boasts over 800 workstations and areas for recreational activities like gaming and art exhibitions, whereas Madrid provides more than 300 workstations and amenities like a health center and gym, fostering a comprehensive learning and living experience.
 
-![Logo de 42 Telefónica](https://github.com/unisraporelmundo/Cursus42/blob/main/assets/42-malaga-logo.jpg)
+**42 Málaga**, part of Telefónica's influential network, mirrors this innovative approach. Like its counterparts, it operates around the clock, focusing on peer-to-peer learning and project-based challenges that range from basic programming to complex fields like AI and cybersecurity.
 
-42 Telefónica es parte de la red global de campus de programación 42, que revoluciona la educación tecnológica con un enfoque pedagógico único y una sólida red de colaboradores empresariales.
+The core philosophy of these campuses centers on accessibility, collaboration, innovation, and perseverance, preparing students not just in technical skills but also enhancing soft skills critical in today's digital world.
 
----
-<a href="#" onclick="return false;"><img alt="42 Logo" src="https://github.com/unisraporelmundo/Cursus42/blob/main/assets/banner%20%20staff.png"></a>
+<h1 align="center">
+    <img src="https://github.com/unisraporelmundo/unisraporelmundo/blob/main/unisraporelmundo/bannerstaff.png" alt="Banner de perfil"/>
+</h1>
 
+**Red 42: Innovación Educativa en Tecnología**
 
-## 🌟 Valores
+La Red 42 es un grupo pionero de escuelas de programación iniciado por Xavier Niel, que está revolucionando la educación tecnológica globalmente, incluyendo campus notables en París, Madrid y Málaga. Cada campus se dedica a democratizar la educación tecnológica, ofreciendo formación gratuita y sin requisitos de diploma previos.
 
-En **42 Telefónica**, creemos en la democratización de la educación tecnológica. Nuestros valores incluyen:
-- **Accesibilidad:** Educación gratuita y sin requisitos previos de diplomas.
-- **Colaboración:** Aprendizaje peer-to-peer que fomenta el trabajo en equipo.
-- **Innovación:** Un currículo que sigue la vanguardia tecnológica.
-- **Perseverancia:** Fomentamos la resiliencia y la dedicación a través de retos continuos.
+**42 París** y **42 Madrid** ofrecen un ambiente de aprendizaje disponible las 24 horas del día, con extensos recursos. París cuenta con más de 800 estaciones de trabajo y áreas para actividades recreativas como juegos y exposiciones de arte, mientras que Madrid proporciona más de 300 estaciones de trabajo y comodidades como un centro de salud y gimnasio, fomentando una experiencia de aprendizaje y vida integral.
 
----
+**42 Málaga**, parte de la influyente red de Telefónica, refleja este enfoque innovador. Al igual que sus homólogos, opera ininterrumpidamente, centrando su metodología en el aprendizaje entre pares y desafíos basados en proyectos que van desde la programación básica hasta campos complejos como la IA y la ciberseguridad.
 
-## 📚 Método de Aprendizaje
+La filosofía central de estos campus se centra en la accesibilidad, la colaboración, la innovación y la perseverancia, preparando a los estudiantes no solo en habilidades técnicas sino también en mejorar habilidades blandas críticas en el mundo digital actual.
 
-`Aprendizaje autónomo y colaborativo:` Sin profesores ni clases tradicionales. Los estudiantes aprenden mediante proyectos prácticos y colaboración.
-
-```plaintext
-- Peer-to-Peer Learning
-- Proyectos prácticos desde fundamentos hasta IA y ciberseguridad.
-- Desarrollo de habilidades técnicas y softkills.
