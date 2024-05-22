@@ -1,9 +1,9 @@
-<a href="#" onclick="return false;"><img alt="42 Logo" src="https://github.com/unisraporelmundo/Cursus42/blob/main/assets/banner5.png"></a>
+<a href="#" onclick="return false;"><img alt="42 Logo" src="https://github.com/unisraporelmundo/unisraporelmundo/blob/main/unisraporelmundo/libftbanner.gif"></a>
 
 El primer proyecto en 42, libft, consiste en aprender cómo funcionan las funciones estándar de la programación C escribiéndolas desde cero y creando una biblioteca personal. Este proyecto es vital ya que la biblioteca se utilizará en asignaciones futuras en 42.
 Tendrás que programar una [librería](https://github.com/unisraporelmundo/Cursus42/tree/main/libft) en C. Tu librería tendrá un montón de funciones de propósito general en las que se apoyarán tus programas.
 
-[Click aquí](https://github.com/unisraporelmundo/Cursus42/blob/main/assets/es.subject.pdf) para ver el `PDF` del proyecto
+[Click aquí](https://github.com/unisraporelmundo/unisraporelmundo/blob/main/unisraporelmundo/es.subject.pdf) para ver el `PDF` del proyecto
 
 
 # Libft - Tu Primera Biblioteca en C
@@ -92,13 +92,9 @@ Si completas la parte obligatoria con éxito, puedes proceder a implementar func
 | [ft_lstiter_bonus](./bonus_functions/ft_lstiter_bonus.c) | Aplica una función a cada elemento de una lista. | void ft_lstiter(t_list *lst, void (*f)(void *)); |
 | [ft_lstmap_bonus](./bonus_functions/ft_lstmap_bonus.c) | Crea una lista iterando y aplicando una función a una lista existente. | t_list *ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *)); |
 
-## 📚 Evaluación
+## 📚 Apuntes
 
-- **Deepthought:** Un sistema automatizado revisará parte del código.
-- **Peer-evaluations:** Tus compañeros evaluarán la funcionalidad y conformidad de tu proyecto.
+[Click aquí](https://github.com/unisraporelmundo/unisraporelmundo/blob/main/unisraporelmundo/LIBFT%20%20APUNTES%20ISRAEL.pdf) para ver el `PDF` con mis apuntes del proyecto.
 
-## 📝 Entrega
-
-Tu trabajo debe ser entregado a través de tu repositorio Git asignado. Asegúrate de que todos los archivos necesarios están presentes y que el nombre de los archivos es correcto.
 
 
