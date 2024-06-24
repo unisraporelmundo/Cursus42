@@ -2,6 +2,20 @@
     <img src="https://github.com/unisraporelmundo/unisraporelmundo/blob/main/unisraporelmundo/banner42.gif" alt="Banner de perfil"/>
 </h1>
 
+<h1 align="center">
+    
+  | Circle | Project | Status | Language |
+  |:------:|:-------:|:------:|:------:|
+  | 0 | [**libft**](./libft) | **125%** | <img  height="25" src=https://user-images.githubusercontent.com/25181517/192106070-46255bcf-65e6-4c6b-a296-bf8d0d8fb2a7.png> |
+  |||
+  | 1 | [**ft_printf**](./ft_printf) | **100%** | <img  height="25" src=https://user-images.githubusercontent.com/25181517/192106070-46255bcf-65e6-4c6b-a296-bf8d0d8fb2a7.png> |
+  | 1 | [**born2beroot**](./Born2beroot) | **125%** | <img  height="25" src=https://user-images.githubusercontent.com/25181517/192106070-46255bcf-65e6-4c6b-a296-bf8d0d8fb2a7.png> |
+  |||
+  
+</h1>
+
+
+
 **42 Network: Innovating Tech Education**
 
 42 Network is a groundbreaking group of coding schools initiated by Xavier Niel, revolutionizing tech education across the globe, including notable campuses in Paris, Madrid, and Málaga. Each campus is dedicated to democratizing tech education, featuring tuition-free training and no prior diploma requirements.
